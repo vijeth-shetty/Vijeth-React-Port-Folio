@@ -9,7 +9,7 @@ export const heroContent = {
         },
         {
             text: "Download Resume",
-            url: "/Resources/Files/Vijeth_Resume.pdf",
+            url: "Resources/Files/Vijeth_Resume.pdf",
             download: true,
             external: false
         }
