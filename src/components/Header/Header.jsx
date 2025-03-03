@@ -1,7 +1,7 @@
-import { useState } from 'react';
-import ThemeToggle from './ThemeToggle';
-import NavLinks from './NavLinks';
-import { FaBars } from 'react-icons/fa';
+import { useState } from "react";
+import ThemeToggle from "./ThemeToggle";
+import NavLinks from "./NavLinks";
+import { FaBars } from "react-icons/fa";
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,10 +13,10 @@ const Header = () => {
         <
         div >
         <
-        a href = "#hero" > Vijeth < /a> <
-        /div> <
+        a href = "#hero" > Vijeth < /a>{" "} <
+        /div>{" "} <
         NavLinks isMenuOpen = { isMenuOpen }
-        /> <
+        />{" "} <
         div >
         <
         ThemeToggle / >
@@ -24,9 +24,9 @@ const Header = () => {
         FaBars className = "menu-icon"
         onClick = {
             () => setIsMenuOpen(!isMenuOpen) }
-        /> <
-        /div> <
-        /nav> <
+        />{" "} <
+        /div>{" "} <
+        /nav>{" "} <
         /header>
     );
 };
