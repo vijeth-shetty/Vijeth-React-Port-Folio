@@ -10,7 +10,7 @@ import {
     FaGithub,
     FaGitAlt
 } from 'react-icons/fa';
-import { SiExpress, SiEjs, SiPostgresql, SiMysql, SiIntellijidea } from 'react-icons/si';
+import { SiExpress, SiEjs, SiPostgresql, SiMysql, SiIntellijidea, SiJavascript } from 'react-icons/si';
 import { DiEclipse } from 'react-icons/di';
 import { TbBrandVscode } from "react-icons/tb";
 
@@ -20,6 +20,7 @@ export const skillsData = {
         skills: [
             { icon: FaHtml5, name: 'HTML5' },
             { icon: FaCss3Alt, name: 'CSS3' },
+            { icon: SiJavascript, name: 'JavaScript' },
             { icon: FaBootstrap, name: 'Bootstrap' },
             { icon: FaReact, name: 'React JS' }
         ]
