@@ -4,6 +4,8 @@ import About from "./components/About/About";
 import Education from "./components/Education/Education";
 import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
+import Certifications from "./components/Certifications/Certifications";
+
 import "./App.css";
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
         Skills / >
         <
         Projects / >
+        <
+        Certifications / >
         <
         /div>
     );
