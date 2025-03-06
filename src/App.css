@@ -460,32 +460,17 @@ span {
     margin-top: 1.5rem;
 }
 
-.project-links .btn {
-    padding: 0.5rem 1rem;
-    font-size: 0.9rem;
-}
-
-
-/* Project links container */
-
 .project-links {
     display: flex;
     gap: 1rem;
     margin-top: 1.5rem;
 }
 
-
-/* Project buttons */
-
 .project-links .btn {
     padding: 10px 20px;
     font-size: 0.9rem;
     white-space: nowrap;
-    /* Prevent text wrapping */
 }
-
-
-/* Medium screens (768px) */
 
 @media (max-width: 768px) {
     .project-links .btn {
@@ -493,9 +478,6 @@ span {
         font-size: 0.85rem;
     }
 }
-
-
-/* Small screens (480px) */
 
 @media (max-width: 480px) {
     .project-links {
@@ -505,18 +487,91 @@ span {
         padding: 6px 12px;
         font-size: 0.8rem;
         flex-shrink: 1;
-        /* Allow buttons to shrink */
         min-width: max-content;
-        /* Prevent text truncation */
     }
 }
-
-
-/* Very small screens (360px) */
 
 @media (max-width: 360px) {
     .project-links .btn {
         padding: 5px 10px;
         font-size: 0.75rem;
+    }
+}
+
+
+/* Certifications Section */
+
+.certificate-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.certificate-card {
+    background: var(--card-bg);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    border-left: 4px solid var(--accent-color);
+}
+
+.certificate-card:hover {
+    transform: translateY(-5px);
+}
+
+.certificate-image {
+    height: 220px;
+    background: #1e1e1e;
+    overflow: hidden;
+}
+
+.certificate-image img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: contain; */
+    padding: 1rem;
+}
+
+.certificate-content {
+    padding: 1.5rem;
+}
+
+.certificate-content h3 {
+    margin: 0 0 0.5rem;
+    color: var(--accent-color);
+    font-size: 1.2rem;
+}
+
+.issuer {
+    color: var(--text-color);
+    opacity: 0.9;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+
+.view-btn {
+    background: rgba(0, 255, 136, 0.1);
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+    padding: 0.6rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.view-btn:hover {
+    background: var(--accent-color);
+    color: var(--bg-color);
+}
+
+@media (max-width: 768px) {
+    .certificate-grid {
+        grid-template-columns: 1fr;
+    }
+    .certificate-image {
+        height: 200px;
+    }
+    .view-btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
     }
 }
