@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Vijeth-React-Port-Folio/static/css/main.636dccf3.css",
-    "main.js": "/Vijeth-React-Port-Folio/static/js/main.1eba5f80.js",
+    "main.css": "/Vijeth-React-Port-Folio/static/css/main.d5228a29.css",
+    "main.js": "/Vijeth-React-Port-Folio/static/js/main.9c88f98e.js",
     "static/js/453.63e633a2.chunk.js": "/Vijeth-React-Port-Folio/static/js/453.63e633a2.chunk.js",
     "index.html": "/Vijeth-React-Port-Folio/index.html",
-    "main.636dccf3.css.map": "/Vijeth-React-Port-Folio/static/css/main.636dccf3.css.map",
-    "main.1eba5f80.js.map": "/Vijeth-React-Port-Folio/static/js/main.1eba5f80.js.map",
+    "main.d5228a29.css.map": "/Vijeth-React-Port-Folio/static/css/main.d5228a29.css.map",
+    "main.9c88f98e.js.map": "/Vijeth-React-Port-Folio/static/js/main.9c88f98e.js.map",
     "453.63e633a2.chunk.js.map": "/Vijeth-React-Port-Folio/static/js/453.63e633a2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.636dccf3.css",
-    "static/js/main.1eba5f80.js"
+    "static/css/main.d5228a29.css",
+    "static/js/main.9c88f98e.js"
   ]
 }
