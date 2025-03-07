@@ -5,6 +5,7 @@ import Education from "./components/Education/Education";
 import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import Certifications from "./components/Certifications/Certifications";
+import Contact from "./components/Contact/Contact";
 
 import "./App.css";
 
@@ -25,6 +26,8 @@ function App() {
         Projects / >
         <
         Certifications / >
+        <
+        Contact / >
         <
         /div>
     );
