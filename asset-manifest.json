@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Vijeth-React-Port-Folio/static/css/main.f4ed9735.css",
+    "main.css": "/Vijeth-React-Port-Folio/static/css/main.8a242260.css",
     "main.js": "/Vijeth-React-Port-Folio/static/js/main.461892dd.js",
     "static/js/453.63e633a2.chunk.js": "/Vijeth-React-Port-Folio/static/js/453.63e633a2.chunk.js",
     "index.html": "/Vijeth-React-Port-Folio/index.html",
-    "main.f4ed9735.css.map": "/Vijeth-React-Port-Folio/static/css/main.f4ed9735.css.map",
+    "main.8a242260.css.map": "/Vijeth-React-Port-Folio/static/css/main.8a242260.css.map",
     "main.461892dd.js.map": "/Vijeth-React-Port-Folio/static/js/main.461892dd.js.map",
     "453.63e633a2.chunk.js.map": "/Vijeth-React-Port-Folio/static/js/453.63e633a2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4ed9735.css",
+    "static/css/main.8a242260.css",
     "static/js/main.461892dd.js"
   ]
 }
