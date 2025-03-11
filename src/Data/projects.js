@@ -8,5 +8,14 @@ export const projectsData = [{
         demoUrl: "https://css-playground-v2.netlify.app/",
         codeUrl: "https://github.com/vijeth-shetty/css-playground"
     },
-    // Add more projects as needed
+    {
+        id: 2,
+        title: "Movie Search App",
+        subtitle: "Search Movies by Title",
+        description: "Search movies by title, display movie details",
+        media: "/Resources/Videos/Movie Search App.mp4",
+        techStack: ["JavaScript", "API", "HTML", "CSS"],
+        demoUrl: "https://vijeth-shetty.github.io/Movie-Search/",
+        codeUrl: "https://github.com/vijeth-shetty/Movie-Search"
+    }
 ];
