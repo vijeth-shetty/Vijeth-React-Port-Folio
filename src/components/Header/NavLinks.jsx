@@ -8,14 +8,21 @@ const NavLinks = ({ isMenuOpen }) => {
         { id: 6, text: 'Contact', href: '#contact' },
     ];
 
-    return ( <
-        div className = { `nav-links ${isMenuOpen ? 'active' : ''}` } > {
-            links.map(link => ( <
-                a key = { link.id }
-                href = { link.href } > { link.text } < /a>
-            ))
-        } <
-        /div>
+    return (
+        <div
+            className = { `nav-links ${isMenuOpen ? 'active' : ''}`
+        } >
+            {
+                links.map(link => (
+                    <a
+                        key = { link.id }
+                       href = { link.href }
+                    >
+                        { link.text }
+                    < /a>
+                ))
+            }
+        </div>
     );
 };
 

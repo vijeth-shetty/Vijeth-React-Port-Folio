@@ -9,11 +9,15 @@ const ThemeToggle = () => {
         document.body.setAttribute('data-theme', isDarkTheme ? 'light' : 'dark');
     };
 
-    return ( <
-        button className = "theme-toggle"
-        onClick = { toggleTheme }
-        ariaLabel = "Toggle theme" > { isDarkTheme ? < FaMoon / > : < FaSun / > } <
-        /button>
+    return (
+        <button
+            className = "theme-toggle"
+            onClick = { toggleTheme }
+            ariaLabel = "Toggle theme" >
+            {
+                isDarkTheme ? < FaMoon /> : < FaSun />
+            }
+        </button>
     );
 };
 
