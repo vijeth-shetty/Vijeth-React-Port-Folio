@@ -4,28 +4,31 @@ const SocialLinks = ({ links }) => {
     const getIcon = (name) => {
         switch (name.toLowerCase()) {
             case 'linkedin':
-                return <FaLinkedin / > ;
+                return <FaLinkedin /> ;
             case 'email':
-                return <FaEnvelope / > ;
+                return <FaEnvelope /> ;
             case 'github':
-                return <FaGithub / > ;
+                return <FaGithub /> ;
             default:
                 return null;
         }
     };
 
-    return ( <
-        div className = "social-links" > {
-            links.map((link, index) => ( <
-                a key = { index }
-                href = { link.url }
-                target = "_blank"
-                rel = "noopener noreferrer"
-                ariaLabel = { link.name } > { getIcon(link.name) } <
-                /a>
+    return (
+        <div className = "social-links" > {
+            links.map((link, index) => (
+                <a
+                    key = { index }
+                    href = { link.url }
+                    target = "_blank"
+                    rel = "noopener noreferrer"
+                    ariaLabel = { link.name }
+                >
+                    { getIcon(link.name) }
+                </a>
             ))
-        } <
-        /div>
+        }
+        </div>
     );
 };
 
