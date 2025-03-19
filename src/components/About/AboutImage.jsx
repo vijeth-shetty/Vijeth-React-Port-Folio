@@ -1,13 +1,12 @@
 const AboutImage = ({ src, alt }) => {
-    return ( <
-        div className = "about-image" >
-        <
-        img src = { `${process.env.PUBLIC_URL}/${src}` }
-        alt = { alt }
-        loading = "lazy" /
-        >
-        <
-        /div>
+    return (
+        <div className = "about-image" >
+            <img
+                src = { `${process.env.PUBLIC_URL}/${src}` }
+                alt = { alt }
+                loading = "lazy"
+            />
+        </div>
     );
 };
 
