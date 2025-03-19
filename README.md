@@ -143,4 +143,4 @@ Have questions or suggestions? Feel free to reach out:
 
 - **Email**: [vijethshetty334@gmail.com](vijethshetty334@gmail.com)
 - **GitHub**: [vijeth-shetty](https://github.com/vijeth-shetty)
-- **LinkedIn**: [Vijeth](https:www.linkedin.com/in/vijeth-shetty-334s)
+- **LinkedIn**: [Vijeth](https://www.linkedin.com/in/vijeth-shetty-334s)
