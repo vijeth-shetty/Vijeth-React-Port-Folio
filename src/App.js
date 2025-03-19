@@ -10,26 +10,17 @@ import Contact from "./components/Contact/Contact";
 import "./App.css";
 
 function App() {
-    return ( <
-        div className = "App" >
-        <
-        Header / >
-        <
-        Hero / >
-        <
-        About / >
-        <
-        Education / >
-        <
-        Skills / >
-        <
-        Projects / >
-        <
-        Certifications / >
-        <
-        Contact / >
-        <
-        /div>
+    return (
+        <div className = "App" >
+            <Header />
+            <Hero />
+            <About />
+            <Education />
+            <Skills />
+            <Projects />
+            <Certifications />
+            <Contact />
+        </div>
     );
 }
 
