@@ -1,6 +1,6 @@
 export const heroContent = {
     title: "Hi, I'm Vijeth",
-    subtitle: "Java Full Stack Developer",
+    subtitle: "Full Stack Developer",
     buttons: [{
             text: "Contact Me",
             url: "#contact",
